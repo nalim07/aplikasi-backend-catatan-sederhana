@@ -9,8 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/index.js",
     "dev": "nodemon api/index.js",
-    "migrate": "prisma migrate dev --name dev",
-    "migrate:prod": "prisma migrate deploy"
+    "postinstall": "prisma generate"
   },
   "name": "aplikasi-backend-catatan-sederhana",
   "version": "1.0.0",
