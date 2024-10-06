@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/index.js",
     "dev": "nodemon api/index.js",
-    "postinstall": "prisma generate"
+    "postinstall": "npx prisma generate"
   },
   "name": "aplikasi-backend-catatan-sederhana",
   "version": "1.0.0",
